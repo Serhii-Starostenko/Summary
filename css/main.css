@@ -1,0 +1,26 @@
+@media screen and (max-width: 439px) {
+  body {
+    display: block;
+    background-color: aqua;
+  }
+}
+@media screen and (min-width: 440px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: chartreuse;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 10px;
+}/*# sourceMappingURL=main.css.map */
