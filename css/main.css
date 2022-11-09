@@ -1,18 +1,3 @@
-@media screen and (max-width: 439px) {
-  body {
-    display: block;
-    background-color: aqua;
-  }
-}
-@media screen and (min-width: 440px) {
-  body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: chartreuse;
-  }
-}
-
 ul {
   list-style: none;
 }
@@ -21,6 +6,46 @@ a {
   text-decoration: none;
 }
 
-section {
+@media screen and (min-width: 425px) {
+  section {
+    width: 100%;
+  }
+}
+
+.container {
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+@media screen and (max-width: 425px) {
+  .container {
+    display: block;
+  }
+}
+@media screen and (min-width: 426px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.left {
+  background-color: #013220;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
+  margin-right: 20px;
+}
+
+.left--name {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=main.css.map */
