@@ -6,14 +6,26 @@ background-color: $left--head;
     padding: 10px;
     margin-right: 20px;
 }
-.left--name{
-
+.head{
     align-items: center;
+    justify-content: center;
+    
+}
+
+.head--name{
 
     color:$bgc--rigth;
 }
-.left--head{
-   
+.data{
+    color: $bgc--rigth;
+    
+    &--list{
+        color: $bgc--rigth;
+    }
 }
-   
+.data--link{
+    color: $bgc--rigth;
+    display: block;
+}
+
    

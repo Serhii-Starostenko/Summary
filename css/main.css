@@ -18,15 +18,16 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
 }
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) {
   .container {
     display: block;
+    width: 425px;
   }
 }
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 728px) {
   .container {
+    width: 728px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -43,9 +44,27 @@ a {
   margin-right: 20px;
 }
 
-.left--name {
+.head {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head--name {
   color: rgb(255, 255, 255);
+}
+
+.data {
+  color: rgb(255, 255, 255);
+}
+.data--list {
+  color: rgb(255, 255, 255);
+}
+
+.data--link {
+  color: rgb(255, 255, 255);
+  display: block;
 }/*# sourceMappingURL=main.css.map */

@@ -1,7 +1,7 @@
-body {
+// body {
  
          
-}
+// }
 
 
 
@@ -25,19 +25,22 @@ section{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
     
-        @media screen and (max-width:425px) {
+    
+        @media screen and (min-width:425px) {
             display: block;
-    
+    width: 425px;
     
         }
     
-        @media screen and (min-width:426px) {
+        @media screen and (min-width:728px) {
+            width: 728px;
             display: flex;
     
     
         }
     
-        @media screen and (min-width:769px) {}
+        @media screen and (min-width:1230px) {
+            
+        }
 }
